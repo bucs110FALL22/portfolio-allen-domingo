@@ -18,12 +18,18 @@ For each one below you should have a basic description of a program idea, a coup
 
 ## Project Idea 1
 
-< add your idea here >
+Oregon Trail but with the Nature preserve
+
+Going through the nature preserve with a couple of buddies, trekking through the dangerous terrain. Try to keep sanity and other stats such as health and hunger at a good level, moderating supplies to make sure you all make it through alive. Survive encounters with Harvey Stenger, Baxter, and other hungry bearcats as you try your best to get through.
 
 ## Project Idea 2
 
-< add your idea here >
+Student simulator akin to "BitLife"
+
+Try to keep grades up while not burdening yourself with a lack of social life. Advance month by month as you make choices with the little time you have. Try to do as much as you can to make the most of everything while trying to graduate on time. Keep everything in moderation here while keeping things interesting, setting aside study time, and encountering scenarios that you have the choices that will shape your future.
 
 ## Project Idea 3
 
-< add your idea here >
+A software instrument
+
+Either a synth or piano like instrument, it will use the keyboard to play the notes. It will include polyphony and also adjustable parameters. Add a filer, chorus, or other effects to create a unique, but usable instrument.
