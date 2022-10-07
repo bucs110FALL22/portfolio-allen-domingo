@@ -49,7 +49,6 @@ while i == 0:
   pygame.display.flip()
   for event in pygame.event.get():
    if event.type == pygame.MOUSEBUTTONDOWN:
-     print("mouse down")
      x_pos,y_pos = pygame.mouse.get_pos()
      if y_pos < center_y:
        i += 1
