@@ -15,7 +15,7 @@ mr_turt.shape("turtle")
 mr_turt.up()
 mr_turt.speed(t_speed)
 print(mr_turt.pos())
-time.sleep(1)
+
 while True:
   coin_flip = random.randrange(0,2)
   if coin_flip == 0:
