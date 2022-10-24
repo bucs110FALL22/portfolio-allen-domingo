@@ -5,8 +5,8 @@ def multi(a=0,b=0):
   return num
 
 def exponent(c=0,d=0):
-  num2 = c
-  for x in range (d-1):
+  num2 = 1
+  for x in range (d):
     num2 *= c
   return num2
 def square(e):
