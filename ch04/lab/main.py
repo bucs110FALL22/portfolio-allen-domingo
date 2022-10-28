@@ -29,7 +29,7 @@ vertical_end = x/2,y
 horizontal_start = 0,y/2
 horizontal_end = x,y/2
 
-msg = "Choose a color"
+msg = "CHOOSE A COLOR"
 font_x = x/3
 font_y = y/4
 font_pos = font_x,font_y
