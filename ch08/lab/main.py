@@ -4,8 +4,7 @@ from StringUtility import StringUtility
 # Provided main() calls your class methods with interesting inputs,
 # using test() to check if each result is correct or not.
 def main():
-    v = StringUtility("barbara")
-    print(v.fixStart())
+    
     # Each line calls donuts, compares its result to the expected for that call.
     test_strings = ["interesting", "aardvark", "aaa", "aeiouAEIOU", "a b c d e f g h i j k l m n o p q r s t u v w x y z", '']
     
