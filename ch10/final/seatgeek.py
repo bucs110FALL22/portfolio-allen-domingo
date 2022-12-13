@@ -32,6 +32,9 @@ class SeatGeek:
         
     else:
       print("no events found")
+      return False
+    return True
+
   def get_event(self,event_num):
     '''
     gives the user a link to buy tickets based on the chose n event

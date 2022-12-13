@@ -4,10 +4,10 @@ from geodb import GeoDB
 from seatgeek import SeatGeek
 def main():
   deezer_ = Deezer()
-  mapq = Mapquest()
+  # mapq = Mapquest()
   seat = SeatGeek()
   
-  chosen_artist = input("Give name of artist: ")
+  chosen_artist = input("Give a name of an artist you like: ")
   id = deezer_.get_artist_id(chosen_artist)
   deezer_.get_album_list(id)
   genre = deezer_.pick_random()
@@ -21,9 +21,10 @@ def main():
   # geo = GeoDB(coordinates)
   # nearest_city = geo.get_nearest_city()
   # seat.get_event_search(state,genre)
-  seat.get_event_search(state,genre)
-  chosen = int(input("Which number event interests you?"))
-  print (seat.get_event(chosen))
+  statement = seat.get_event_search(state,genre)
+  if statement:
+    chosen = int(input("Which number event interests you?"))
+    print (seat.get_event(chosen))
 
 main()
   
